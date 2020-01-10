@@ -19,4 +19,4 @@ jobs:
             - "node_modules"
       - run: npm run test -- --no-watch --no-progress --browsers=ChromeHeadlessCI
       - run: npm run build
-      - run: ./node_modules/.bin/firebase deploy --token=$FIREBASE_DEPLOY_TOKEN
+      - run: npm run firebase-deploy --token={'1//03PjBRbhEJMxWCgYIARAAGAMSNwF-L9IrhIFQ4zvTPahOvMgqJlwt8ahEsT1gOdaC556mlrqEh9jlbZPAlGpgtirXEYDBC-jAqJc'}
